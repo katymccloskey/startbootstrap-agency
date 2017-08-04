@@ -1,0 +1,25 @@
+<script type="text/javascript" src="instafeed.js-master/instafeed.min.js"></script>
+
+<!-- <script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'awesome',
+        clientId: '66988cad07b445d79ac7bed9ed0dd59a'
+    });
+    feed.run();
+</script> -->
+
+<script type="text/javascript">
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: '3439395',
+        accessToken: '3439395.1677ed0.bdb16d87983647a8a0bcf34e6e81d303',
+        limit: '4',
+        template: '<a href="{{link}}"><img src="{{image}}" /></a>'
+    });
+    userFeed.run();
+</script>
+
+
+<div id="instafeed"></div>
+<!-- <iframe src="//users.instush.com/bee-gallery-v2/?cols=3&rows=2&size=medium&border=3&round=false&space=0&sl=true&bg=transparent&brd=false&na=true&pin=false&hc=e72476&ltc=3f3f3f&lpc=ffffff&fc=ffffff&user_id=3439395&username=ardent.heart&sid=-1&susername=-1&tag=-1&stype=mine&t=99999968VlW6klodkyQ7Lh5yzsbUkLXtZEV8quJFn_uMdDYwUYCaCBjmxG9m4TSocNiZujsNzkRYG7C-c" allowtransparency="true" frameborder="0" scrolling="no"  style="display:block;width:450px;height:300px;border:none;overflow:visible;" ></iframe> -->
